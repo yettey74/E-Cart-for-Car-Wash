@@ -1,0 +1,365 @@
+@charset "UTF-8";
+
+/* --------------- CCS RESET --------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+strong, b {
+    font-weight: bold;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* -------------------------------------------------- */
+
+
+body 
+{
+	padding-bottom:0px;
+	background-color:#006EB5;
+	background-repeat:repeat-y;
+	background-position:center;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+
+#pageWrap{
+	width:100%;
+	margin:auto;
+	background-image:url(images/shadow.png);
+}
+
+#page
+{
+	width:850px;
+	margin:auto;
+	background-color:#006EB5;
+}
+
+#header
+{
+	width:100%;
+	height:125px;
+	padding-top:15px;
+	text-align:center;
+	background-color:#0E1329;
+}
+
+/* ------------------ nav menu ----------------*/
+
+#navCont{
+	width:1050px;
+	height:40px;
+}
+
+#nav
+{
+	width:800px;
+	margin: 0 auto;
+	position:relative;
+}
+
+#nav ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;	
+}
+
+#nav ul li{
+	float:left;	
+}
+
+#nav ul li a{
+	width:100px;
+	height:23px;
+	padding: 12px 0 0 0; 
+	margin: 5px 0 0 0;
+	float:left;
+	display:block;
+	cursor:pointer;
+	font-size:16px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#000000;
+	background-color:#FFFFFF;
+	text-decoration:none;
+	text-align:center;
+}
+
+#nav ul li a:hover{
+	background-color:#006EB5;
+	margin:0;
+	height:28px;
+	color:#000;
+}
+
+#index #navindex a,
+#menu #navmenu a,
+#specials #navspecials a,
+#reservation #navres a,
+#services #navservices a,
+#contact #navcontact a,
+#about #navabout a,
+#hours #navhours a,
+#cms #navcms a{
+	background-color:#fff;
+	margin:0;
+	height:28px;
+	color:#006EB5;
+}
+
+/* ------------------ end menu ----------------*/
+
+/* ----------- SLIDESHOW ----------- */
+
+#slideshowcont{
+	width:740px;
+	height:240px;
+	margin:0 auto 20px;
+	padding:5px;
+	position:relative;
+	background:url(images/slideshow.png);
+		
+}
+
+#slideshow{
+	width:640px;
+	height:240px;
+	position:relative;
+	background:#a1a1a2;
+}
+
+#slideshow img{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:8;	
+}
+
+#slideshow img.current{
+	z-index:10;	
+}
+
+#slideshow img.prev{
+	z-index:9;	
+}
+
+/* ----------- end slideshow ----------- */
+
+/* ----------- SLIDESHOW1 ----------- */
+
+#slideshowcont1{
+	width:740px;
+	height:240px;
+	margin:0 auto 20px;
+	padding:5px;
+	position:relative;	
+		
+}
+
+#slideshow1{
+	width:640px;
+	height:240px;
+	position:relative;
+	background:#a1a1a2;
+}
+
+#slideshow1 img{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:8;	
+}
+
+#slideshow1 img.current{
+	z-index:10;	
+}
+
+#slideshow1 img.prev{
+	z-index:9;	
+}
+
+/* ----------- end slideshow1 ----------- */
+
+#content {
+	width:auto;
+	padding: 15px 20px;
+	margin: 0 auto;
+	background-color:#fff;
+}
+
+
+#footer
+{
+	height:10px;
+	padding:15px 15px;
+	font-size:12px;
+	text-align:center;
+	color:#000;
+}
+
+#pagesBtm{
+	width:850px;
+	height:30px;
+	background-image:url(images/shadowBtm.png);
+	background-repeat:no-repeat;
+	margin:auto;
+}
+
+.center{
+	text-align:center;
+}
+
+.space{
+	height:358px;
+	width:380px;
+}
+
+.space2{
+	height:20px;
+	width:380px;
+}
+
+h1{
+	padding-bottom:5px;
+	padding-top:25px;
+	margin-bottom:20px;
+	font-size:36px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	letter-spacing:1.5px;
+	font-color: #F6EF25;
+}
+
+h2{
+	font-size:29px;
+	margin-top:20px;
+	margin-bottom:25px;
+}
+
+h3{
+	font-size:22px;
+	font-weight:bold;
+	margin-bottom:30px;
+}
+
+.socialBar{
+	width:765px;
+	height:100px;
+	font-size:35px;
+	color:#fff;
+	padding-top:9px;
+	background-image:url(images/socialBanner.png);
+	background-repeat:no-repeat;
+	margin-bottom:30px;
+	margin-top:15px;
+}
+
+.fblink{
+	margin-top:10px;
+}
+
+.mobileAdvert{
+	height:515px;
+	width:365px;
+	margin-top:20px;
+	float:right;
+	padding-left:35px;
+	text-align:left;
+	background-image:url(images/mobileAdvert.jpg);
+	background-repeat:no-repeat;
+}
+
+.download{
+	margin-bottom:30px;
+}
+
+.download a{
+	text-decoration:none;
+	color:#000;
+	font-weight:bold;
+}
+
+.ct{
+	font-size:26px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#802000;
+	letter-spacing:1.5px;
+	padding-bottom:15px;
+}
+
+.address{
+	font-size:29px;
+	font-weight:bold;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-top:35px;
+	margin-bottom:10px;
+	text-align:center;
+}
+
+.number{
+	font-size:37px;
+	font-weight:bold;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align:center;
+	margin-bottom:20px;
+}
+
+.left{
+	width:355px;
+	float:left;
+}
+
+.clear{
+	clear:both;
+}
+
+.box {
+	
+    width: auto;
+    border: 5px solid #006EB5;
+    padding: 25px;
+    margin: 25px;
+	text-align:left;
+}
+
+.form { width:985px; margin:0 auto }
